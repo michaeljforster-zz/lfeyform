@@ -5,7 +5,7 @@
 
 (include-lib "yaws/include/yaws_api.hrl")
 (include-lib "exemplar/include/html-macros.lfe")
-(include-file "include/fieldspecs.lfe")
+(include-lib "lfeyform/include/fieldspecs.lfe")
 
 ;;; Render HTML fields and validate their submitted values.
 ;;;
