@@ -1,5 +1,6 @@
 (defmodule lfeyform
   (export (render-field 2)
+          (validate-field 2)
           (validate-fields 2)))
 
 (include-lib "yaws/include/yaws_api.hrl")
